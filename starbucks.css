@@ -1,0 +1,1300 @@
+*{
+    margin:0;
+}
+.navbar{
+    display: flex;
+    color: #000;
+    background-color:white;
+    width: 100%;
+    height:80px; 
+    align-items:center;  
+    justify-content: space-between;
+    margin: auto;
+}
+
+.logo{
+    height: 40px;
+    display: flex;
+    position: absolute;
+    right: 1300px;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+nav ul{
+    flex: 1;
+    text-align: left;
+    padding: 300px;
+}
+
+
+.list{
+    margin: 10px 30px;
+    display: flex;
+    gap: 50px;
+    list-style: none;   
+}
+.list a{
+    text-decoration: none;
+    color:black;
+    letter-spacing:1px;
+    font-size: 17px;
+}
+
+.input{
+    width: 15%;
+    display: flex;
+    position: absolute;
+    right: 300px;
+    border-radius:30px;
+    padding: 10px 25px;
+    align-items: center;
+    border-color:whitesmoke; 
+    box-shadow: #494848; 
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    height:8px;
+    width: 9px;
+    display: flex;
+
+}
+.search{
+    width: 33px;
+    height:33px;
+    display: flex;
+    position: absolute;
+    right: 548px;
+    align-items: center;
+    background-color:transparent; 
+    border-radius: 300px;
+    border: white;
+
+}
+.user{
+    width: 35px;
+    height:35px;
+    display: flex;
+    position: absolute;
+    right: 150px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 300px;
+}
+
+.button{
+    outline: none;
+    border:none;
+}
+
+/* -----------------second_nav------------------ */
+.second_nav{
+    width: 100%;
+    height:80px;
+    background-color: #011e01;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second_nav h3{
+    display: flex;
+    padding:20px 90px;
+}
+.second_nav button{
+    height: 30px;
+    width: 90px;
+    display: flex;
+    position: absolute;
+    right: 200px;
+    border-radius: 600px;
+    color: white;
+    background-color: #011e01;
+    border-color: white;
+}
+
+.main{
+    width: 100%;
+    height:300px;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua;  */
+    
+    
+}
+.main h2{
+    padding-left: 100px;
+    padding-bottom:200px; 
+    position: absolute;
+      
+}
+.Bestseller{
+    padding: 80px;
+    position: absolute;
+    left:10px;
+}
+
+.Bestseller img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Bestseller p{
+    position: absolute;
+    left: 100px;
+}
+
+.Drinks{
+    padding: 80px;
+    position: absolute;
+    left:240px;
+}
+
+.Drinks img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Drinks p{
+    position: absolute;
+    left: 115px;
+}
+
+.Food{
+    padding: 80px;
+    position: absolute;
+    left:470px;
+}
+
+.Food img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Food p{
+    position: absolute;
+    left: 115px;
+}
+
+.Merchandise{
+    padding: 80px;
+    position: absolute;
+    left:700px;
+}
+
+.Merchandise img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Merchandise p{
+    position: absolute;
+    left: 95px;
+}
+
+.Coffee {
+    padding: 80px;
+    position: absolute;
+    left:930px;
+}
+
+.Coffee  img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Coffee p{
+    position: absolute;
+    left: 85px;
+}
+
+.Ready {
+    padding: 80px;
+    position: absolute;
+    left:1160px;
+}
+
+.Ready  img{
+    height:110px;
+    width: 110px;
+    border-radius: 50%;
+}
+.Ready p{
+    position: absolute;
+    left: 95px;
+}
+/* swiper-wraper 3rd divion */
+.swiper-wraper{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    /* transform:translate3d(-1080px, 0px, 0px); */
+    /* transition-duration: 0ms; */
+    
+}   
+
+.disney{
+    width:85%;
+    height: 220px;
+    border-radius:10px;
+    position: absolute;
+    bottom: 5px;
+    left: 100px;
+    
+}
+.disney img{
+    height: 200px;
+    position:absolute;
+    top:15px;
+}
+.disney h5{
+    position: absolute;
+    bottom: 180px;
+    left:180px;
+    color: white;
+}
+
+.Limited{
+    height: 5px;
+    position: absolute;
+    bottom: 210px;
+    right: 10px;
+    color: white;
+    font-weight:2000;
+}
+.disney h2{
+    position: absolute;
+    bottom: 140px;
+    left:180px;
+    color: white;
+    font-weight:2000;
+}
+.f1{
+    position: absolute;
+    bottom: 110px;
+    left:180px;
+    color: white;    
+}
+.f2{
+    position: absolute;
+    bottom: 30px;
+    left:180px;
+    color: white;    
+}
+
+.rate{
+    position: absolute;
+    bottom: 10px;
+    left:180px;
+    color: white;
+    font-weight:2000;
+}
+.Order{
+    height: 55px;
+    width: 17%;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 10px;
+    right:50px;
+    color:black;
+    font-weight:120;
+    background-color: white;
+
+}
+
+
+.items{
+    width:100%;
+    height: 500px;
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: space-between;
+}
+.items h2{
+    padding-left: 100px;
+    padding-bottom:450px; 
+    position: absolute;
+}
+/* pumpkin */
+.pumpkin{
+    width:27%;
+    height:400px;
+    background-color: azure;
+    position: absolute;
+    left:100px;
+    border-radius:10px;      
+}
+.pumpkin_img{
+    overflow: hidden;
+    width:100%;
+    height:200px;
+    position:absolute;
+    /* left:0px; */
+    bottom:200px;
+    border-radius: 10px;   
+}
+
+.veg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom:180px;
+    left:20px;
+}
+.new_launch{
+    position: absolute;
+    bottom:180px;
+    left:50px;
+    color: green;
+}
+.pumpkin_head{
+    position:absolute;
+    bottom:160px;
+    left:50px;
+}
+.short{
+    position:absolute;
+    bottom: 140px;
+    left:50px;
+    color:#494848;
+    font-family:'Times New Roman', Times, serif;
+}
+.paragraf{
+    position:absolute;
+    bottom:70px;
+    left: 50px;
+    color: #494848;
+}
+.price{
+    position:absolute;
+    bottom: 40px;
+    left: 50px;
+}
+.add_items{
+    height: 30px;
+    /* width:10%; */
+    position:absolute;
+    bottom: 40px;
+    left:300px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;    
+}
+.add_items ::placeholder{
+    border: rgba(red, green, blue, 0.0);
+}
+/* iced_pumpkin */
+.iced_pumpkin{
+    width:27%;
+    height:400px;
+    background-color: azure;
+    position: absolute;
+    left:560px;
+    border-radius:10px; 
+}
+.iced_pumpkin_img{
+    width:100%;
+    height:200px;
+    position:absolute;
+    /* left:0px; */
+    bottom:200px;
+    border-radius: 10px;
+}
+/* pumpkin_spice */
+.pumpkin_spice{
+    width:27%;
+    height:400px;
+    background-color: azure;
+    position: absolute;
+    right:50px;
+    border-radius:10px;
+}
+.pumpkin_spice_img{
+    width:90%;
+    height:400px;
+    position:absolute;
+    /* left:0px; */
+    bottom:200px; 
+    border-radius: 10px;  
+}
+/* second_items */
+.second_items{
+    width:100%;
+    height:300px;
+    background-color:rgb(220, 216, 216);
+}
+.second_items h1{
+    padding-left: 100px; 
+    position: absolute;
+    top:1290px;
+}
+.Strawberry{
+    width:25%;
+    height:140px;
+    position:absolute;
+    left: 100px;
+    top: 1350px;
+    background-color:white;
+    border-radius:5px;
+}
+.starbucks-cdn{
+    border-radius:10px;
+    position:absolute;
+    bottom: 45px;
+    left: 20px;
+}
+
+.second_veg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom:102px;
+    left:110px;
+}
+.second_items_head{
+    position: absolute;
+    bottom:81px;
+    left:110px;
+}
+.second_items_short{
+    position: absolute;
+    bottom:55px;
+    left:110px;
+    color: #494848;
+}
+.second_items_price{
+    position:absolute;
+    bottom: 20px;
+    left: 30px;
+}
+
+.second_items_add_items{
+    height: 30px;
+    position:absolute;
+    bottom: 20px;
+    left:300px;
+    background-color: green;
+    color: white;
+    border-radius: 30px;    
+}
+
+.Vanilla{
+    width:25%;
+    height:140px;
+    position:absolute;
+    left: 600px;
+    top: 1350px;
+    background-color:white;
+    border-radius:5px;
+}
+.second_items li{
+    display: flex;
+    /* list-style:none; */
+    /* display: inline-block; */
+    /* font-style: none; */
+    position: absolute;
+    right: 100px;
+    top: 1300px;
+    color: green;
+}
+
+.second_items li a{   
+    text-decoration: none;
+    color:green;
+    letter-spacing:1px;
+    font-size: 17px; 
+}
+
+.leaf{
+    position:absolute;
+    left: 858px;
+    height: 65px;
+    bottom: 155px;
+}
+
+/* Coffee_baag */
+
+.Coffee_baag{
+    display: flex;
+    width:100%;
+    height: 600px;
+    background-color:rgb(220, 216, 216);
+}
+.Coffee_baag h1{
+    padding-left: 100px; 
+    position: absolute;
+    top:1630px;
+}
+
+.Coffee_baag li{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 1650px;
+    color: green;
+}
+.Coffee_baag li a{
+    text-decoration: none;
+    color:green;
+    letter-spacing:1px;
+    font-size: 17px;
+}
+.Coffee_baag li a :hover{
+color: green;
+}
+
+/* Coffee_baag_img */
+.Coffee_baag_img{
+    width:85%;
+    height:400px;
+    position:absolute;
+    left: 100px;
+    top: 1700px;
+    border-radius: 5px ;
+    /* overflow: hidden; */
+}
+.coffee_culture{
+    width: 120px;
+    height:25px;
+    background-color: azure;
+    position: absolute;
+    left: 30px;
+    top:20px;
+    border-radius: 5px;
+    color:rgb(17, 186, 42);
+}
+.Coffee_baag_img img{
+    width:100%;
+    height:400px;
+    border-radius: 5px;
+}
+
+.Coffee_baag_img h1{
+    display: flex;
+    position:absolute;
+    top: 190px;
+    left:px;
+    color: white;
+}
+      
+.Coffee_baag_img button{
+    width:15%;
+    height: 40px;
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    border-radius: 25px;
+}
+.Coffee_baag_img p{
+    position:absolute;
+    top: 250px;
+    left: 30px;
+    color: white;
+}
+/* ---------------------fotter--------------------- */
+.fotter{
+    color:white ;
+    background-color: hsl(120, 100%, 6%);
+}
+.About_Us_h{
+    position:absolute;
+    padding: 110px;
+    left: 200px;
+}
+.About_Us_l{
+    position:absolute;
+    padding: 140px;
+    left: 170px;
+    color: white;
+    list-style: none;
+}
+.About_Us_l a{
+    text-decoration: none;
+    color:white;
+    letter-spacing:1px;
+    font-size: 14px;
+    /* font-weight:bold; */
+}
+.About_Us_l a:hover{
+    color: green;
+}
+.Responsibility_h{
+    position:absolute;
+    padding: 110px;
+    left: 400px;
+}
+.Responsibility_l{
+    position:absolute;
+    padding: 140px;
+    left: 370px;
+    color: white;
+    list-style: none;
+}
+
+.Responsibility_l a{
+    text-decoration: none;
+    color:white;
+    letter-spacing:1px;
+    font-size: 14px;
+    /* font-weight:bold; */
+}
+.Responsibility_l a:hover{
+    color: green;
+}
+.Quick_Links_h{
+    position:absolute;
+    padding: 110px;
+    left: 600px;
+}
+.Quick_Links_l{
+    position:absolute;
+    padding: 140px;
+    left: 570px;
+    color: white;
+    list-style: none;
+}
+
+.Quick_Links_l a{
+    text-decoration: none;
+    color:white;
+    letter-spacing:1px;
+    font-size: 14px;
+    /* font-weight:bold; */
+}
+.Quick_Links_l a:hover{
+    color: green;
+}
+
+.SOCIAL_MEDIA_h{
+    position:absolute;
+    padding: 110px;
+    left: 850px;
+    font-weight:bold;
+}
+.SOCIAL_MEDIA_l{
+    margin: 10px 10px;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    position:absolute;
+    padding: 140px;
+    left: 840px;
+    color: white;   
+}
+
+.SOCIAL_MEDIA_l i{
+    width: 9px;
+    height: 8px;
+    font-weight:bold;
+}
+
+/* logo_fotter */
+.logo_fotter{
+    height: 60px; 
+    position: absolute;
+    top:2340px;
+    left: 100px;
+}
+
+.appstoreiOS img{
+    height: 60px; 
+    position: absolute;
+    top:2330px;
+    left: 1250px;
+}
+
+.appstoreAndroid img{
+    height: 60px; 
+    position: absolute;
+    top:2430px;
+    left: 1250px;
+}
+
+.fotterend{
+    /* height: 100px;  */
+    position: absolute;
+    top: 2869px;
+    left: 130px;
+    color:white;
+}
+    
+.end_list{
+        margin: 20px 30px;
+        display: flex;
+        position:absolute;
+        left: 10px;
+        gap: 30px;
+        list-style: none;           
+}
+
+
+.smail{
+    margin: 20px 30px;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    gap: 30px;
+    list-style: none;      
+}
+/*_________________________________ gift_second_nav__________________________________________________ */
+
+.gift_second_nav{
+    width:100%;
+    height: 320px;
+    background-color: #011e01;
+    color:white;
+    justify-content: space-between;
+    align-items: center;   
+}
+.autumn_merchandise{
+    width:80%;
+    height: 250px;
+	background-image: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/Rectangle_439_3a61dc6064.png);
+    position:absolute;
+    top: 112px;
+    left: 150px;
+    border-radius: 5px;
+}
+.autumn_merchandise img{
+    position:absolute;
+    top:10px;
+}
+.gift_orderNow{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    top:173px;
+    right: 30px;
+    color: white;
+    background-color:green;
+    border-radius: 50px;
+}
+/* para */
+.New-Season{
+    position:absolute;
+    right:940px;
+    bottom: 200px;
+    color: #000;
+}
+.Embrace{
+    position:absolute;
+    right:441px;
+    bottom:110px;
+    color: #000;
+}
+.autumn_merchandise h2{
+    position:absolute;
+    right:868px;
+    bottom: 150px;
+    color: #000;
+}
+.autumn_merchandise h5{
+    position:absolute;
+    right:1020px;
+    top: 175px;
+    color: #000;
+    font-weight: lighter;
+}
+.autumn_merchandise h3{
+    position:absolute;
+    right:1050px;
+    top: 195px;
+    color: #000; 
+}
+.third_nav{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 299px;
+    background-color: rgb(209, 205, 205);
+    justify-content:space-between;
+    align-items:center;
+}
+.third_nav ul{
+    margin: 10px 30px;
+    display: flex;
+    gap: 50px;
+    list-style: none;  
+}
+
+.third_nav ul li{
+    margin: 10px 30px;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    color: #494848;
+}
+.third_nav ul li:hover{
+    color: green;
+}
+
+.Anytime{
+    position: absolute;
+    bottom: 264px;
+    left:130px;
+    color: #000;
+}
+.Anytime_borderline{
+    position: absolute;
+    color: #494848;
+    bottom: 255px;
+}
+/* ----------Anytime---------------- */
+/* ---- India Exclusive---------- */
+.India_Exclusive{
+    background-color:hwb(0 87% 13%);
+    position:absolute;
+    left: 200px;
+    bottom: 50px;
+    border-radius: 10px;
+    border-color: hsl(0, 2%, 11%);  
+}
+.India_Exclusive_img{
+    height: 100px;
+    border-radius:5px;
+    position: absolute;
+    bottom: 60px;
+    right:260px;
+}
+.India_Exclusive h3{
+    position:absolute;
+    left: 120px;
+    top:20px;
+}
+.India_Exclusive p{
+    position:absolute;
+    left: 120px;
+    top:50px;
+    color: #494848;
+}
+.India_Exclusive button{
+    height: 35px;
+    width: 100px;
+    position:absolute;
+    left: 120px;
+    bottom:20px;
+    border-radius:20px;
+    color:white;
+    background-color: green;
+}
+/* ------------Starbucks Coffee-------------- */
+.Starbucks-Coffee{
+    background-color:hwb(0 87% 13%);
+    position:absolute;
+    left: 640px;
+    bottom: 50px;
+    border-radius: 10px;
+    border-color: hsl(0, 2%, 11%);  
+}
+.Starbucks-Coffee_img{
+    height: 100px;
+    border-radius:5px;
+    position: absolute;
+    bottom: 60px;
+    right:260px;
+}
+.Starbucks-Coffee h3{
+    position:absolute;
+    left: 120px;
+    top:20px;
+}
+.Starbucks-Coffee p{
+    position:absolute;
+    left: 120px;
+    top:50px;
+    color: #494848;
+}
+.Starbucks-Coffee button{
+    height: 35px;
+    width: 100px;
+    position:absolute;
+    left: 120px;
+    bottom:20px;
+    border-radius:20px;
+    color:white;
+    background-color: green;
+}
+/* -------------U Keep Me Warm------------- */
+
+.U-Keep-Me-Warm{
+    background-color:hwb(0 87% 13%);
+    position:absolute;
+    left: 1080px;
+    bottom: 50px;
+    border-radius: 10px;
+    border-color: hsl(0, 2%, 11%);  
+}
+.U-Keep-Me-Warm_img{
+    height: 100px;
+    width: 170px;
+    border-radius:5px;
+    position: absolute;
+    bottom: 60px;
+    right:260px;
+}
+.U-Keep-Me-Warm h3{
+    position:absolute;
+    left: 120px;
+    top:20px;
+}
+.U-Keep-Me-Warm p{
+    position:absolute;
+    left: 120px;
+    top:50px;
+    color: #494848;
+}
+.U-Keep-Me-Warm button{
+    height: 35px;
+    width: 100px;
+    position:absolute;
+    left: 120px;
+    bottom:20px;
+    border-radius:20px;
+    color:white;
+    background-color: green;
+}
+
+/* -----------------------Congratulations-div----------------------------- */
+.Congratulations-div{
+    width:100%;
+    height: 900px;
+}
+.Congratulations-div h1{
+    position:absolute;
+    top: 750px;
+    left:130px;
+}
+.Congratulations-div_borderline{
+    position: absolute;
+    color: #494848;
+    top: 800px;
+}
+/* ----------------Congrats----------------- */
+.Congrats{
+    background-color:hwb(0 87% 13%);
+    position:absolute;
+    left: 200px;
+    top:850px;
+    border-radius: 10px;
+    border-color: hsl(0, 2%, 11%);  
+}
+.Congrats_img{
+    height: 100px;
+    width: 170px;
+    border-radius:5px;
+    position: absolute;
+    bottom: 60px;
+    right:260px;
+}
+.Congrats h3{
+    position:absolute;
+    left: 120px;
+    top:20px;
+}
+.Congrats p{
+    position:absolute;
+    left: 120px;
+    top:50px;
+    color: #494848;
+}
+.Congrats button{
+    height: 35px;
+    width: 100px;
+    position:absolute;
+    left: 120px;
+    bottom:20px;
+    border-radius:20px;
+    color:white;
+    background-color: green;
+}
+
+/* ------------Ruby-our-barista-has-a-message-for-you------------ */
+
+.Ruby-our-barista-has-a-message-for-you{
+    background-color:hwb(156 28% 35%);
+    position: absolute;
+    top: 1160px;
+    right:7%;
+    border-radius: 10px;;
+}
+
+.Ruby-our-barista-has-a-message-for-you img{
+    height: 160px;
+    position:absolute;
+    right: 190px;
+}
+
+.Ruby-our-barista-has-a-message-for-you h1{
+    position:absolute;
+    color:white;
+    top: 50px;
+}
+.Ruby-our-barista-has-a-message-for-you p{
+    position: absolute;
+    color:white;
+    top: 105px;
+    left: 130px;   
+}
+
+
+/* -------------------fotter giftappstoreiOS ----------------- */
+.giftappstoreiOS img{
+    height: 60px; 
+    position: absolute;
+    top:1472px;
+    left: 1250px;
+}
+
+.giftlogo_fotter{
+    height: 60px; 
+    position: absolute;
+    top:1482.3px;
+    left: 100px;  
+}
+
+.giftappstoreAndroid img{
+    height: 60px; 
+    position: absolute;
+    top:1572px;
+    left: 1250px;
+}
+
+.giftfotterend{
+    /* height: 100px;  */
+    position: absolute;
+    top: 2010px;
+    left: 130px;
+    color:white;
+}
+    
+.end_list{
+        margin: 20px 30px;
+        display: flex;
+        position:absolute;
+        left: 10px;
+        gap: 30px;
+        list-style: none;           
+}
+.giftsmail{
+    margin: 20px 30px;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    gap: 30px;
+    list-style:none;      
+}
+/* ------------------Order-------------- */
+.second_nav i{
+    position:absolute;
+    left: 100px;
+}
+.second_nav input{
+    position:absolute;
+    top: 115px;
+    left: 120px;
+    background-color: transparent;
+    border-color:transparent;
+    color: white;
+}
+.clockicon{
+    position:absolute;
+    top: 115px;
+    left: 250px;
+}
+
+.second_nav h5{
+    position:absolute;
+    top: 115px;
+    left: 270px;
+}
+.delivery{
+    position: absolute;
+    top: 115px;
+    right:400px;
+}
+.dine-in{
+    position:absolute;
+    top:115px;
+    right: 280px;
+}
+.takeaway{
+    position:absolute;
+    top: 115px;
+    right: 160px;
+}
+/* --------------------orderthird_nav--------------------------- */
+.orderthird_nav{
+    width:100%;
+    height: 60px;
+    background-color: hwb(0 70% 28%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.orderthird_nav ul{
+    margin: 10px 30px;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 100px;
+
+}
+.orderthird_nav ul li{
+    list-style: none;
+    color:#494848;
+    font: weight 600px;
+}
+.orderthird_nav ul li:hover{
+    color: #011e01;
+}
+/*  _________________orderthird_nav3_________________*/
+.orderthird_nav3{
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    
+}
+
+.orderthird_nav3 ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 200px;
+    bottom: 499px;
+    align-items: center;
+    justify-content: center;
+    color: #646262;
+
+}
+
+/* image */
+.extence{
+    height: 19px;
+    position: absolute;
+    bottom: 500px;
+    left: 150px;
+}
+
+/* orderthird_nav3 list style */
+
+/* Blend */
+.Blend{
+    height: 30px;
+    width:90px;
+    background-color:#bcb6b6;
+    border-radius: 10px;
+
+}
+
+.Blend li{
+    position: absolute;
+    left: 65px;
+    bottom: 8px;
+}
+/* Blonde-Roast */
+.Blonde-Roast{
+    height: 30px;
+    width:110px;
+    background-color:#bcb6b6;
+    border-radius: 10px;
+
+}
+
+.Blonde-Roast li{
+    position: absolute;
+    left:190px;
+    bottom: 8px;
+}
+/* Dark-Roast */
+
+.Dark-Roast{
+    height: 30px;
+    width:100px;
+    background-color:#bcb6b6;
+    border-radius: 10px;
+
+}
+
+.Dark-Roast li{
+    position: absolute;
+    left:355px;
+    bottom: 8px;
+}
+
+/* Medium-Roast */
+
+.Medium-Roast{
+    height: 30px;
+    width:110px;
+    background-color:#bcb6b6;
+    border-radius: 10px;
+
+}
+
+.Medium-Roast li{
+    position: absolute;
+    left:497px;
+    bottom: 8px;
+}
+/* Single-Origin */
+
+.Single-Origin{
+    height: 30px;
+    width:120px;
+    background-color:#bcb6b6;
+    border-radius: 10px;
+
+}
+
+.Single-Origin li{
+    position: absolute;
+    left:667px;
+    bottom: 8px;
+}
+
+/* order-line */
+.order-line{
+    color: #bcb6b6;
+}
+
+/* _--------Wholebeans------------ */
+
+.Wholebeans{
+    width:100%;
+    height: 500px;
+    /* background-color: #000; */
+}
+
+.Wholebeans h2{
+    position: absolute;
+    left: 90px;
+    top: 290px;
+}
+
+.Wholebeans p{
+    position: absolute;
+    left: 93px;
+    top: 329px;
+}
+
+.Diwali-Blend{
+    width:30%;
+    height: 400px;
+    color: #000;
+}
